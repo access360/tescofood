@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Tesco Wine</title>
+<title>Tesco Good Food</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -15,10 +15,29 @@
 
 <body>
 <input type="hidden" id="baseurl" value="<?= base_url() ?>"/>
-<div class="container">
-  <div class="content">
+
     
-    <?php if(isset($mainContent)) { $this->load->view($mainContent); } ?>
+     <div class="top-spaced">
+            <div id="slideshow" class="dragdealer">
+                <div class="handle" style="left: 0px;">
+                    <div class="slide img1"></div>
+                    <div class="slide img2"></div>
+                    <div class="slide img3"></div>
+                    <div class="slide img4"></div>
+                    <div class="slide img5"></div>
+                </div>
+            </div>
+        </div>
+    
+     <div class="selectDisable" id="previousButton"
+             style="display:none;">
+            &nbsp;
+        </div>
+
+        <div class="selectDisable" id="nextButton"
+             style="">
+            &nbsp;
+        </div>
     
      <div class="selectDisable" id="handPhone">
 
@@ -31,6 +50,9 @@
                 <img class="slideImages" src="css/assets/phonePage4.png"/>
             </div>
 
+
+
+
             <div class="phoneSlideshowSmall" style="display:none;">
 
                 <img class="slideImagesSmall" src="css/assets/phonePage1.png"/>
@@ -41,21 +63,46 @@
 
         </div>
     
-    <div id="reset" style="width:1080px; height:200px;  position:absolute; bottom:0px;">
-    	
-    </div>
+      <div id="start" class="selectDisable">
+ <div class="startSlideshow selectDisable">
+
+                <img class="slidestart selectDisable" id="start1" src="css/assets/start-1.png"/>
+                <img class="slidestart selectDisable" id="start2" src="css/assets/start-2.png"/>
+                
+            </div>
+        </div>
+        
+        
+        <div id="tescoLogo" onclick="reset()">
+        </div>
+        
+         <div id="legal" >
+        </div>
+        <div id="finishedShopping" >
+            <img  src="<?=base_url()?>css/assets/finished-shopping.png"/>
+
+
+            <div class="yesnocontainer">
+                <div onclick="finished()" class="selectDisable yesButton yesno">&nbsp;</div>
+                <div onclick="notFinished()" class="selectDisable noButton yesno">&nbsp;</div>
+                
+            </div>
+            
+           
+        </div>
+
+<div id="niceflight">
+ <img id="goodflight"  src="css/assets/have-a-good-flight.png"/>
+</div>
     
-     <!-- end .content --></div>
-  <!-- end .container --></div>
+
   
    <script src="<?=base_url()?>js/jquery.js"></script>
-    <script src="<?=base_url()?>js/jqueryui.js"></script>
+   <script src="<?=base_url()?>js/dragdealer.js"></script>
      <script src="<?=base_url()?>js/cycle.js"></script>
-       <script src="<?=base_url()?>js/jquery.keyboard.min.js"></script>
-   <script src="<?=base_url()?>js/jquery.keyboard.extension-typing.js"></script>
-   <script src="<?=base_url()?>js/jquery.keyboard.extension-autocomplete.js"></script>
+
      <script src="<?=base_url()?>js/idle.js"></script>
-     <script src="<?=base_url()?>js/dragdealer.js"></script>
+    
     <script src="<?=base_url()?>js/scripts.js"></script>
 </body>
 </html>

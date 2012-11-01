@@ -1,3 +1,5 @@
+var base_url = $('#baseurl').val() + "index.php/";
+var base_urlsmall = $('#baseurl').val();
 var link1 = $('#slideshow-photo-1');
 var link2 = $('#slideshow-photo-2');
 var link3 = $('#slideshow-photo-3');
@@ -109,11 +111,11 @@ var slideshow = new Dragdealer('slideshow', {
 
     }
 });
-function logAction(action) {
+ function logAction(action) {
 
-    $.post("logger.php", {
-        action : action
-    });
+	    $.post(base_url + "forms/logAction", {
+	        action : action
+	    });
 }
 function notFinished() {
     logAction('Clicked No on Finished Shopping popup');
@@ -252,11 +254,11 @@ function reset() {
 function resetArrows() {
 
     $('#nextButton').css({
-        background:"url(http://localhost/tesco/css/assets/right-arrow.png)"
+        background:"url(" + base_urlsmall + "css/assets/right-arrow.png)"
     });
 
     $('#previousButton').css({
-        background:"url(http://localhost/tesco/css/assets/left-arrow.png)"
+        background:"url(" + base_urlsmall + "css/assets/left-arrow.png)"
     });
 }
 function checktime() {
@@ -361,14 +363,14 @@ $(document).ready(
         document.getElementById('nextButton').onclick = function() {
             $('.startSlideshow').hide();
             $(this).css({
-                background:"url(http://localhost/tesco/css/assets/right-arrow-blue.png)"
+               background:"url(" + base_urlsmall + "css/assets/right-arrow-blue.png)"
             });
 
             setTimeout('resetArrows()', 1000);
             valuenow = parseFloat(slideshow
                 .getClosestSteps(slideshow.value.current));
             currentpage = (valuenow * (totalSlides - 1) + 1);
-            // $('#nextButton').append(currentpage+1 + ' ');
+             $('#nextButton').append(currentpage+1 + ' ');
 
             slideshow.setStep(currentpage + 1);
             return false;
@@ -376,7 +378,7 @@ $(document).ready(
 
         document.getElementById('previousButton').onclick = function() {
             $(this).css({
-                background:"url(http://localhost/tesco/css/assets/left-arrow-blue.png)"
+                background:"url(" + base_urlsmall + "css/assets/left-arrow-blue.png)"
             });
 
             setTimeout('resetArrows()', 1000);

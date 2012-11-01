@@ -61,7 +61,7 @@
 #slideshow {
 	width: 1080px;
 	height: 1920px;
-	
+	overflow:hidden;
 }
 
 #slideshow .handle {
@@ -411,4 +411,165 @@ border-radius: 27px;
 }
 .orderedlist li {
 	padding-bottom:10px;
+}
+
+
+#bgImage {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:1000;
+}
+
+#finishedShopping {
+	border: solid 0px #000000;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	-moz-box-shadow: 4px 4px 39px #000000;
+	-webkit-box-shadow: 4px 4px 39px #000000;
+	box-shadow: 4px 4px 39px #000000;
+	background: #fff;
+	width: 508px;
+	height: 265px;
+	position: absolute;
+	top: 450px;
+	left: 285px;
+	text-align: center;
+	display: none;
+	padding-top:30px;
+}
+
+#niceflight {
+    border: solid 0px #000000;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	-moz-box-shadow: 4px 4px 39px #000000;
+	-webkit-box-shadow: 4px 4px 39px #000000;
+	box-shadow: 4px 4px 39px #000000;
+	background: #fff;
+	width: 508px;
+	height: 170px;
+	position: absolute;
+	top: 450px;
+	left: 285px;
+	text-align: center;
+	display: none;
+	padding-top:90px;
+}
+.selectDisable {-webkit-user-select: none;  -khtml-user-select: none;   -moz-user-select: none; -o-user-select: none;    user-select: none; }
+#handPhone {
+	
+	width: 768px;
+	height: 1283px;
+	position: absolute;
+	bottom: -1283px;
+	left: 180px;
+}
+
+#previousButton {
+	background-image: url('assets/left-arrow.png');
+	width: 75px;
+	height: 100px;
+	position: absolute;
+	top: 540px;
+	left: 10px;
+	cursor: none;
+	
+}
+
+#nextButton {
+	background-image: url('assets/right-arrow.png');
+	width: 75px;
+	height: 100px;
+	position: absolute;
+	top: 540px;
+	left: 995px;
+	cursor: none;
+        z-index:20000;
+	
+}
+#start {
+    position:absolute;
+    top:346px;
+    left:239px;
+    
+    
+}
+
+.phoneSlideshow  {
+	z-index:2000;
+	position:relative;
+	left:430px;
+	top:50px;
+	width:768px;
+}
+
+.phoneSlideshowSmall  {
+	z-index:2000;
+	position:relative;
+	left:195px;
+	top:24px;
+	width:238px;
+	
+}
+
+.slideImages {
+	width: 238px;
+	
+}
+.slideImagesSmall {
+    
+	width: 110px;
+	height:189px;
+	
+}
+.yesno {
+	
+
+	width: 163px;
+	height: 50px;
+	
+	margin: 22px 20px 20px 20px;
+	
+
+}
+#tescoLogo {
+    position:absolute;
+    background-image: url('assets/tesco-logo.png');
+    height: 97px;
+    width:520px;
+    left:280px;
+    top:1720px;
+    
+}
+#legal {
+    position:absolute;
+    background-image: url('assets/legal.png');
+    height: 32px;
+    width:543px;
+    left:268px;
+    bottom:30px;
+    
+}
+
+.yesButton {
+	float: left;
+	background-image: url('assets/Yes.png');
+	margin-left: 32px;
+}
+
+.noButton {
+	float: right;
+	background-image: url('assets/No.png');
+	margin-right: 32px;
+}
+.yesnocontainer {
+	height: 100px;
+	clear: both;
+	margin: 0 auto;
+	width: 450px;
+	
 }
