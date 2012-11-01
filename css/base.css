@@ -42,8 +42,7 @@
 }
 
 .dragdealer .handle {
-	position: absolute;
-	cursor: none;
+	
 }
 
 .dragdealer .red-bar {
@@ -62,14 +61,13 @@
 #slideshow {
 	width: 1080px;
 	height: 1920px;
-	overflow: hidden;
-	cursor: none;
+	
 }
 
 #slideshow .handle {
 	width: 5400px;
 	height: 1920px;
-	cursor: none;
+	
 }
 
 #slideshow .handle .slide {
@@ -105,8 +103,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	cursor: none;
-    overflow:hidden;
+	
 	
 	
 }
