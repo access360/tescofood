@@ -20,6 +20,27 @@
     
     <?php if(isset($mainContent)) { $this->load->view($mainContent); } ?>
     
+     <div class="selectDisable" id="handPhone">
+
+            <img id="bgImage" src="css/assets/handphone.png"/>
+            <div class="phoneSlideshow"style="display:none;">
+
+                <img class="slideImages" src="css/assets/phonePage1.png"/>
+                <img class="slideImages" src="css/assets/phonePage2.png"/>
+                <img class="slideImages" src="css/assets/phonePage3.png"/>
+                <img class="slideImages" src="css/assets/phonePage4.png"/>
+            </div>
+
+            <div class="phoneSlideshowSmall" style="display:none;">
+
+                <img class="slideImagesSmall" src="css/assets/phonePage1.png"/>
+                <img class="slideImagesSmall" src="css/assets/phonePage2.png"/>
+                <img class="slideImagesSmall" src="css/assets/phonePage3.png"/>
+                <img class="slideImagesSmall" src="css/assets/phonePage4.png"/>
+            </div>
+
+        </div>
+    
     <div id="reset" style="width:1080px; height:200px;  position:absolute; bottom:0px;">
     	
     </div>

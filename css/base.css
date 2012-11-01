@@ -33,6 +33,7 @@
     font-style: normal;
  
 }
+
 .dragdealer {
 	position: relative;
 	height: 30px;
@@ -42,7 +43,7 @@
 
 .dragdealer .handle {
 	position: absolute;
-	
+	cursor: none;
 }
 
 .dragdealer .red-bar {
@@ -61,13 +62,14 @@
 #slideshow {
 	width: 1080px;
 	height: 1920px;
-	
+	overflow: hidden;
+	cursor: none;
 }
 
 #slideshow .handle {
-	width: 2160px;
+	width: 5400px;
 	height: 1920px;
-	
+	cursor: none;
 }
 
 #slideshow .handle .slide {
@@ -75,21 +77,27 @@
 	width: 1080px;
 	height: 1920px;
 }
+
 #slideshow .handle .img1 {
-	background: #fff;
+	background: url('fridge/Fridge-1.jpg') no-repeat 0 0 #ddd;
 }
 
 #slideshow .handle .img2 {
-	background: #fff;
+	background: url('fridge/Fridge-2.jpg') no-repeat 0 0 #000;
 }
 
 #slideshow .handle .img3 {
-	background: #fff;
+	background: url('fridge/Fridge-3.jpg') no-repeat 0 0 #ddd;
 }
 
 #slideshow .handle .img4 {
-	background: #fff;
+	background: url('fridge/Cupboard-4.jpg') no-repeat 0 0 #000;
 }
+
+#slideshow .handle .img5 {
+	background: url('fridge/Cupboard-5.jpg') no-repeat 0 0 #000;
+}
+
 
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
@@ -100,6 +108,34 @@ body {
 	cursor: none;
     overflow:hidden;
 	
+	
+}
+
+phoneSlideshow  {
+	z-index:2000;
+	position:relative;
+	left:430px;
+	top:50px;
+	width:768px;
+}
+
+.phoneSlideshowSmall  {
+	z-index:2000;
+	position:relative;
+	left:195px;
+	top:24px;
+	width:238px;
+	
+}
+
+.slideImages {
+	width: 238px;
+	
+}
+.slideImagesSmall {
+    
+	width: 110px;
+	height:189px;
 	
 }
 

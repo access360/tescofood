@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://www.redtest.info/tescostore/';
+$config['base_url']	= 'http://www.redtest.info/tescofood/';
 
 /*
 |--------------------------------------------------------------------------
