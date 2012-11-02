@@ -20,11 +20,82 @@
      <div class="top-spaced">
             <div id="slideshow" class="dragdealer">
                 <div class="handle" style="left: 0px;">
-                    <div class="slide img1"></div>
+                	
+                	
+                    <div class="slide img1">
+                    	
+                    
+                    </div>
+                    
+                    
                     <div class="slide img2"></div>
-                    <div class="slide img3"></div>
-                    <div class="slide img4"></div>
-                    <div class="slide img5"></div>
+                    
+                    	<img id="recipe01" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton01" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton01" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    		
+                    	<img id="recipe02" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton02" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton02" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	<img id="recipe03" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton03" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton03" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	<div id="handPhone">
+                    	<img id="" src="<?=base_url()?>css/assets/handphone.png"/>
+                    	 <div class="phoneSlideshow" style="display:none;">
+
+			                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage1.png"/>
+			                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage2.png"/>
+			                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage3.png"/>
+			                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage4.png"/>
+			            </div>
+            			</div>
+                    	
+                    <div class="slide img3">
+                    	<img id="recipe04" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton04" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton04" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	<img id="recipe05" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton05" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton05" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	<img id="recipe06" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton06" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton06" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	
+                    </div>
+                    <div class="slide img4">
+                    	<img id="recipe07" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton07" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton07" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	<img id="recipe08" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton08" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton08" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	<img id="recipe09" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton09" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton09" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    </div>
+                    <div class="slide img5">
+                    	<img id="recipe10" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton10" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton10" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	<img id="recipe11" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton11" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton11" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    	<img id="recipe12" src="<?=base_url()?>css/fridge/recipe1.jpg"/>
+                    	<img class="showIngredients" id="ingredientButton12" src="<?=base_url()?>css/assets/buttonIngredients.jpg"/>
+                    	<img class="showImages" id="imageButton12" src="<?=base_url()?>css/assets/buttonImage.jpg"/>
+                    	
+                    </div>
                 </div>
             </div>
         </div>
@@ -39,29 +110,7 @@
             &nbsp;
         </div>
     
-     <div class="selectDisable" id="handPhone">
-
-            <img id="bgImage" src="<?=base_url()?>css/assets/handphone.png"/>
-            <div class="phoneSlideshow"style="display:none;">
-
-                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage1.png"/>
-                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage2.png"/>
-                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage3.png"/>
-                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage4.png"/>
-            </div>
-
-
-
-
-            <div class="phoneSlideshowSmall" style="display:none;">
-
-                <img class="slideImagesSmall" src="<?=base_url()?>css/assets/phonePage1.png"/>
-                <img class="slideImagesSmall" src="<?=base_url()?>css/assets/phonePage2.png"/>
-                <img class="slideImagesSmall" src="<?=base_url()?>css/assets/phonePage3.png"/>
-                <img class="slideImagesSmall" src="<?=base_url()?>css/assets/phonePage4.png"/>
-            </div>
-
-        </div>
+   
     
    
         
@@ -69,7 +118,7 @@
         <div id="tescoLogo" onclick="reset()">
         </div>
         
-         <div id="legal" >
+         <div id="legal" style="display:none;" >
         </div>
         <div id="finishedShopping" >
             <img  src="<?=base_url()?>css/assets/finished-shopping.png"/>

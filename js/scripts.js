@@ -139,10 +139,10 @@ function showHand() {
     $('.phoneSlideshowSmall').fadeOut();
     $('#handPhone').animate({
         opacity : 1,
-        bottom : '0',
-        left : '80',
+        bottom : '-70',
+        left : '1726',
 		
-        width: '768px'
+        width: '840px'
     }, 2000, function() {
         // Animation complete.
         if(handclicked == 0){
@@ -161,8 +161,8 @@ function hideHand() {
         // Animation complete.
         $('#handPhone').animate({
             opacity : 1,
-            bottom : '-1025',
-            left : '690px',
+            bottom : '-1525',
+            left : '1690px',
             width: '350px'
 
         }, 2000, function() {
@@ -346,6 +346,7 @@ $(document).ready(
 
         } 
         if (currentpage == 3) {
+        	 hideHand();
             logAction('Page 3 Visited');
         } 
         
@@ -390,5 +391,23 @@ $(document).ready(
             slideshow.setStep(currentpage - 1);
             return false;
         }
+        
+        
+        
+        $('.showIngredients').click(function(){
+        	var ButtonId = $(this).attr('id');
+        	var lastChar = ButtonId.substr(ButtonId.length - 2);
+        	$('#imageButton' + lastChar).fadeIn();
+        	$('#recipe' + lastChar).fadeIn();
+        	$('#ingredientButton' + lastChar).fadeOut();
+        });
+        
+          $('.showImages').click(function(){
+        	var ButtonId = $(this).attr('id');
+        	var lastChar = ButtonId.substr(ButtonId.length - 2);
+        	$('#imageButton' + lastChar).fadeOut();
+        	$('#recipe' + lastChar).fadeOut();
+        	$('#ingredientButton' + lastChar).fadeIn();
+        });
 
     });

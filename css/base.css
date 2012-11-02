@@ -462,11 +462,11 @@ border-radius: 27px;
 .selectDisable {-webkit-user-select: none;  -khtml-user-select: none;   -moz-user-select: none; -o-user-select: none;    user-select: none; }
 #handPhone {
 	
-	width: 768px;
-	height: 1283px;
+	width: 840px;
+	height: 1403px;
 	position: absolute;
 	bottom: -1283px;
-	left: 180px;
+	left: 1360px;
 }
 
 #previousButton {
@@ -501,8 +501,8 @@ border-radius: 27px;
 
 .phoneSlideshow  {
 	z-index:2000;
-	position:relative;
-	left:430px;
+	position:absolute;
+	left:119px;
 	top:50px;
 	width:768px;
 }
@@ -538,11 +538,11 @@ border-radius: 27px;
 }
 #tescoLogo {
     position:absolute;
-    background-image: url('assets/tesco-logo.png');
-    height: 97px;
-    width:520px;
-    left:280px;
-    top:1720px;
+  
+    height: 127px;
+    width:1080px;
+    left:0px;
+    top:1790px;
     
 }
 #legal {
@@ -572,4 +572,227 @@ border-radius: 27px;
 	margin: 0 auto;
 	width: 450px;
 	
+}
+
+#ingredientButton01 {
+	position: absolute;
+	left:1858px;
+	top:420px;
+}
+#imageButton01 {
+	position: absolute;
+	
+	left:1858px;
+	top:420px;
+	display:none;
+}
+
+#ingredientButton02 {
+	position: absolute;
+	left:1858px;
+	top:1000px;
+}
+#imageButton02 {
+	position: absolute;
+	
+	left:1858px;
+	top:1000px;
+	display:none;
+}
+
+#ingredientButton03 {
+	position: absolute;
+	left:1858px;
+	top:1580px;
+}
+#imageButton03 {
+	position: absolute;
+	
+	left:1858px;
+	top:1580px;
+	display:none;
+}
+
+
+#ingredientButton04 {
+	position: absolute;
+	left:2938px;
+	top:420px;
+}
+#imageButton04 {
+	position: absolute;
+	
+	left:2938px;
+	top:420px;
+	display:none;
+}
+
+#ingredientButton05 {
+	position: absolute;
+	left:2938px;
+	top:1000px;
+}
+#imageButton05 {
+	position: absolute;
+	
+	left:2938px;
+	top:1000px;
+	display:none;
+}
+
+#ingredientButton06 {
+	position: absolute;
+	left:2938px;
+	top:1580px;
+}
+#imageButton06 {
+	position: absolute;
+	
+	left:2938px;
+	top:1580px;
+	display:none;
+}
+
+#ingredientButton07 {
+	position: absolute;
+	left:4018px;
+	top:420px;
+}
+#imageButton07 {
+	position: absolute;
+	
+	left:4018px;
+	top:420px;
+	display:none;
+}
+
+#ingredientButton08 {
+	position: absolute;
+	left:4018px;
+	top:1000px;
+}
+#imageButton08 {
+	position: absolute;
+	
+	left:4018px;
+	top:1000px;
+	display:none;
+}
+
+#ingredientButton09 {
+	position: absolute;
+	left:4018px;
+	top:1580px;
+}
+#imageButton09 {
+	position: absolute;
+	
+	left:4018px;
+	top:1580px;
+	display:none;
+}
+
+
+#ingredientButton10 {
+	position: absolute;
+	left:5098px;
+	top:420px;
+}
+#imageButton10 {
+	position: absolute;
+	
+	left:5098px;
+	top:420px;
+	display:none;
+}
+
+#ingredientButton11 {
+	position: absolute;
+	left:5098px;
+	top:1000px;
+}
+#imageButton11 {
+	position: absolute;
+	
+	left:5098px;
+	top:1000px;
+	display:none;
+}
+
+#ingredientButton12 {
+	position: absolute;
+	left:5098px;
+	top:1580px;
+}
+#imageButton12 {
+	position: absolute;
+	
+	left:5098px;
+	top:1580px;
+	display:none;
+}
+
+#recipe01, #recipe02, #recipe03, #recipe04, #recipe05, #recipe06, #recipe07, #recipe08,
+#recipe09, #recipe10, #recipe11, #recipe12 {
+	display:none;
+}
+#recipe01 {
+	position: absolute;
+	left:1141px;
+	top:89px;
+}
+#recipe02 {
+	position: absolute;
+	left:1141px;
+	top:669px;
+}
+#recipe03 {
+	position: absolute;
+	left:1141px;
+	top:1249px;
+}
+#recipe04 {
+	position: absolute;
+	left:2222px;
+	top:89px;
+}
+#recipe05 {
+	position: absolute;
+	left:2222px;
+	top:669px;
+}
+#recipe06 {
+	position: absolute;
+	left:2222px;
+	top:1249px;
+}
+#recipe07 {
+	position: absolute;
+	left:3301px;
+	top:89px;
+}
+#recipe08 {
+	position: absolute;
+	left:3301px;
+	top:669px;
+}
+#recipe09 {
+	position: absolute;
+	left:3301px;
+	top:1249px;
+}
+#recipe10 {
+	position: absolute;
+	left:4381px;
+	top:89px;
+}
+#recipe11 {
+	position: absolute;
+	left:4381px;
+	top:669px;
+}
+#recipe12 {
+	position: absolute;
+	left:4381px;
+	top:1249px;
 }
