@@ -42,7 +42,7 @@
 }
 
 .dragdealer .handle {
-	
+	position:absolute;
 }
 
 .dragdealer .red-bar {
@@ -89,11 +89,11 @@
 }
 
 #slideshow .handle .img4 {
-	background: url('fridge/Cupboard-4.jpg') no-repeat 0 0 #000;
+	background: url('fridge/Fridge-4.jpg') no-repeat 0 0 #000;
 }
 
 #slideshow .handle .img5 {
-	background: url('fridge/Cupboard-5.jpg') no-repeat 0 0 #000;
+	background: url('fridge/Fridge-5.jpg') no-repeat 0 0 #000;
 }
 
 

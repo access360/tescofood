@@ -495,7 +495,7 @@ Dragdealer.prototype = {
 			}
 
 			if (k >= this.steps) {
-				k = 1;
+				k = 4;
 			}
 		}
 		

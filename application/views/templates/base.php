@@ -41,13 +41,13 @@
     
      <div class="selectDisable" id="handPhone">
 
-            <img id="bgImage" src="css/assets/handphone.png"/>
+            <img id="bgImage" src="<?=base_url()?>css/assets/handphone.png"/>
             <div class="phoneSlideshow"style="display:none;">
 
-                <img class="slideImages" src="css/assets/phonePage1.png"/>
-                <img class="slideImages" src="css/assets/phonePage2.png"/>
-                <img class="slideImages" src="css/assets/phonePage3.png"/>
-                <img class="slideImages" src="css/assets/phonePage4.png"/>
+                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage1.png"/>
+                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage2.png"/>
+                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage3.png"/>
+                <img class="slideImages" src="<?=base_url()?>css/assets/phonePage4.png"/>
             </div>
 
 
@@ -55,22 +55,15 @@
 
             <div class="phoneSlideshowSmall" style="display:none;">
 
-                <img class="slideImagesSmall" src="css/assets/phonePage1.png"/>
-                <img class="slideImagesSmall" src="css/assets/phonePage2.png"/>
-                <img class="slideImagesSmall" src="css/assets/phonePage3.png"/>
-                <img class="slideImagesSmall" src="css/assets/phonePage4.png"/>
+                <img class="slideImagesSmall" src="<?=base_url()?>css/assets/phonePage1.png"/>
+                <img class="slideImagesSmall" src="<?=base_url()?>css/assets/phonePage2.png"/>
+                <img class="slideImagesSmall" src="<?=base_url()?>css/assets/phonePage3.png"/>
+                <img class="slideImagesSmall" src="<?=base_url()?>css/assets/phonePage4.png"/>
             </div>
 
         </div>
     
-      <div id="start" class="selectDisable">
- <div class="startSlideshow selectDisable">
-
-                <img class="slidestart selectDisable" id="start1" src="css/assets/start-1.png"/>
-                <img class="slidestart selectDisable" id="start2" src="css/assets/start-2.png"/>
-                
-            </div>
-        </div>
+   
         
         
         <div id="tescoLogo" onclick="reset()">
@@ -92,7 +85,7 @@
         </div>
 
 <div id="niceflight">
- <img id="goodflight"  src="css/assets/have-a-good-flight.png"/>
+ <img id="goodflight"  src="<?=base_url()?>css/assets/have-a-good-flight.png"/>
 </div>
     
 

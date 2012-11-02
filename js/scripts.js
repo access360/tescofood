@@ -363,7 +363,7 @@ $(document).ready(
         document.getElementById('nextButton').onclick = function() {
             $('.startSlideshow').hide();
             $(this).css({
-               background:"url(" + base_urlsmall + "css/assets/right-arrow-blue.png)"
+             //  background:"url(" + base_urlsmall + "css/assets/right-arrow-blue.png)"
             });
 
             setTimeout('resetArrows()', 1000);
@@ -378,7 +378,7 @@ $(document).ready(
 
         document.getElementById('previousButton').onclick = function() {
             $(this).css({
-                background:"url(" + base_urlsmall + "css/assets/left-arrow-blue.png)"
+               // background:"url(" + base_urlsmall + "css/assets/left-arrow-blue.png)"
             });
 
             setTimeout('resetArrows()', 1000);
