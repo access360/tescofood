@@ -68,7 +68,7 @@ var slideshow = new Dragdealer('slideshow', {
 
                 $('.phoneSlideshow').cycle({
                     fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-                    delay: 1500				
+                    delay: 50				
                 });
 				 
                 $('.phoneSlideshowSmall').cycle({
@@ -76,7 +76,7 @@ var slideshow = new Dragdealer('slideshow', {
                     delay:3000
 							
                 });
-                setTimeout('hideHand()', 20500);
+                setTimeout('hideHand()', 7000);
                 hand = 1;
             }
 
@@ -315,7 +315,7 @@ $(document).ready(
         $('#handPhone').click(function() {
 				
             handclicked = 1;
-	 logAction('Hand Pressed');			
+	 			logAction('Hand Pressed');			
             if(phonesmall ==1){
             //hideHandtotal();
             } else {
@@ -371,7 +371,7 @@ $(document).ready(
             valuenow = parseFloat(slideshow
                 .getClosestSteps(slideshow.value.current));
             currentpage = (valuenow * (totalSlides - 1) + 1);
-             $('#nextButton').append(currentpage+1 + ' ');
+            // $('#nextButton').append(currentpage+1 + ' ');
 
             slideshow.setStep(currentpage + 1);
             return false;
