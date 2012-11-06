@@ -294,7 +294,7 @@ $(document).ready(
         $(document).bind("idle.idleTimer", function(){
             var timeoutCorrect = (timeout/1000);
             logAction('No Activity for ' + timeoutCorrect + ' seconds');
-            checktime();
+           // checktime();
         });
 
         $(document).bind("active.idleTimer", function(){
