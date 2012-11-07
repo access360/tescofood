@@ -104,7 +104,8 @@ body {
 	padding: 0;
 	color: #000;
 	
-	
+	cursor: none;
+    overflow:hidden;	
 	
 }
 
